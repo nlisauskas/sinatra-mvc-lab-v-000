@@ -12,4 +12,11 @@ class PigLatinizer
     word
   end
 
+  def piglatinize(phrase)
+    new_array = phrase.collect do |word|
+    piglatin(word)
+  end
+  new_array.join(" ")
+  end
+
 end
