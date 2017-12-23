@@ -1,7 +1,12 @@
 class PigLatinizer
 
-  def initialize
-    @phrase = params[:user_phrase]
+  def initialize(string)
+    @string = string
+  end
+
+  def split_phrase
+    array = []
+    @string.split(' ')
   end
 
 end
