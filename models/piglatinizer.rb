@@ -8,8 +8,8 @@ class PigLatinizer
     array = @string.split(' ')
     new_array = array.collect do |word|
       if word[0].match(/[aeiou]/)
-
-      elsif 
+        word << "way"
+      elsif
 
       end
     end
