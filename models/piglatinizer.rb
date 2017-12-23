@@ -9,6 +9,6 @@ class PigLatinizer
       elsif
         word[0].match(/[bcdfghjklmnpqrstvwxyz]/)
       end
-    end
+  end
 
 end
