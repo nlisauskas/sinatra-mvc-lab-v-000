@@ -5,8 +5,7 @@ class PigLatinizer
   end
 
   def split_phrase
-    array = []
-    @string.split(' ')
+    array = @string.split(' ')
   end
 
 end
