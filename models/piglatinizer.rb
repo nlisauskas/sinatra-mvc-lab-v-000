@@ -10,7 +10,7 @@ class PigLatinizer
       if word[0].match(/[aeiou]/)
         word << "way"
       elsif
-
+        word[0].match(/[bcdfghjklmnpqrstvwxyz]/)
       end
     end
     new_array.join(' ')
