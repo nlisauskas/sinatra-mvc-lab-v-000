@@ -9,7 +9,7 @@ class App < Sinatra::Base
   post '/' do
     text_from_user = params[:latin]
 
-    text_from_user
+    erb :latinized
   end
 
 end
