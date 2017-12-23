@@ -3,12 +3,9 @@ class PigLatinizer
   attr_reader :text
 
   def pig_latinize(words)
-
-      if word[0].match(/[aeiou]/)
-        word << "way"
-      elsif
-        word[0].match(/[bcdfghjklmnpqrstvwxyz]/)
-      end
+    #Take in string of words and make into an array
+    #Iterate over the array and return array with each word in Pig Latin
+    #Return the array as a string
   end
 
 end
