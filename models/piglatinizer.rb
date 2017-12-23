@@ -1,7 +1,7 @@
 class PigLatinizer
 
   def initialize
-    @phrase = phrase
+    @phrase = params[:user_phrase]
   end
 
 end
