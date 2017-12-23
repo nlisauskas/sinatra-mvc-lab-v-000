@@ -16,7 +16,8 @@ class PigLatinizer
     new_array = phrase.collect do |word|
     piglatin(word)
   end
-  new_array.join(" ")
+  array = new_array.join(" ")
+  array
   end
 
 end
