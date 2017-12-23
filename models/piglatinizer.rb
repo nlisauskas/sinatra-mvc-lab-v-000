@@ -4,7 +4,7 @@ class PigLatinizer
     @string = string
   end
 
-  def split_phrase
+  def pig_latinize
     array = @string.split(' ')
   end
 
