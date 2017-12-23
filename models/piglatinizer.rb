@@ -6,6 +6,10 @@ class PigLatinizer
 
   def pig_latinize
     array = @string.split(' ')
+    new_array = array.collect do |word|
+
+    end
+    new_array.join(' ')
   end
 
 end
